@@ -1,0 +1,4 @@
+if [[ ! -z "{$@// }" ]]
+then
+  cmd.exe /c $1.bat "${@:2}"
+fi
