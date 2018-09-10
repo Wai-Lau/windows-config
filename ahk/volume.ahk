@@ -1,3 +1,4 @@
+#SingleInstance ignore
 ^!`::
 Run, nircmd mutesysvolume 1
 Run, nircmd exec hide v.bat 0
