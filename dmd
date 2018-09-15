@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [[ ! -z $@ ]]
+then
+  echo Executing with docker: $1 ${@:2}
+  cmd.exe /c "@echo off && p-docker && @echo on && $1 ${@:2}"
+fi
