@@ -14,7 +14,5 @@ shift
 goto loop1
 
 :after_loop
-for /f "tokens=* delims= " %%a in ('%RESTVAR%') do (
-set EVAL=%%a
-)
-%FIRST% %EVAL%
+for /f "tokens=* delims= " %%a in ('%RESTVAR%') do @echo off && %FIRST% %%a
+@echo on
