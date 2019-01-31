@@ -1,3 +1,3 @@
 @echo off
-nircmd speak text "%*" -5
+nircmd speak text "%*" 0
 @echo on

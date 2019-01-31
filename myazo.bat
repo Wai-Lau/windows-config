@@ -1,0 +1,1 @@
+python C:\Ubuntu\rootfs\home\wai\myazo\client\src\myazo.py
